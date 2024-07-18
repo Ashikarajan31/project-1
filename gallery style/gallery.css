@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(166, 166, 199);
+}
+.box{
+    background-color: white;
+    text-align: center;
+    padding: 20px 45px 20px 30px;
+    margin: 20px 45px 20px 30px;
+    
+    
+}
+.box img{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+}
+.box button{
+    background-color: green;
+    color: white;
+    border-radius:5px;
+    border: none;
+    padding: 10px;
+}
+.box p{
+    color: blue;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+button:hover{
+    background-color: rgb(160, 100, 63);
+}

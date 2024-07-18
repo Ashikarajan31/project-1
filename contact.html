@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="icon" href="Assets/logo.jpg">
+    <link rel="stylesheet" href="style contact/contact.css">
+</head>
+<body>
+    <div class="head">
+        <div>
+            <img class="img1" src="assets/Untitled design (5).png">
+        </div>
+        <div class="nav">
+            <ul class="navbar">
+                <li><a style="text-decoration: none; color: white;" href="index.html">Home</a></li>
+                <li><a style="text-decoration: none; color: white;" href="about.html">About Us</a></li>
+                <li><a style="text-decoration: none; color: white;" href="contact.html">Contact Us</a></li>
+                <li><a style="text-decoration: none; color: white;" href="gallery.html">Products</a></li>
+            </ul>     
+        </div>
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        </div>
+        <div class="form">
+        <h1 >Contact Us</h1>
+        <form>
+            <div class="f1">
+                <label for="firstName">First Name:</label>
+                <input type="text" placeholder="Name" id="firstName" name="firstName" required>
+            </div>
+            <div class="f1">
+                <label for="email">Email ID:</label>
+                <input type="email" placeholder="example@gmail.com" id="email" name="email" required>
+            </div>
+            <div class="f1">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+            </div>
+            <div class="f1">
+                <label for="comments">Comments:</label>
+                <textarea id="comments" placeholder="write Something"name="comments" rows="4" required></textarea>
+            </div>
+            <div class="btn">
+                <button type="submit">Submit</button>
+                <button type="button" onclick="window.history.back()">Cancel</button>
+            </div>
+        </form>
+        </div>
+    <footer>
+        <p>&copy; 2024 Company Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>

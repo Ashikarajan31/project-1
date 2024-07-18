@@ -1,0 +1,126 @@
+body{
+    font-family: arial;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.img1{
+    position: relative;
+    padding: 10px;
+    height:60px;
+    width: 60px;
+}
+.head{
+    background-color:rgb(162, 184, 116);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+ul{
+    position: absolute;
+    right: 1rem;
+    top: 40px;
+}
+li{
+    color:white;
+    display: inline;
+    padding:20px;
+    margin:30px;
+    font-size: 25px;
+}
+.hamburger{
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    float: right;
+}
+.hamburger .bar{
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 3px 0px;
+    border-radius: 9px;
+    
+}
+h1{
+    padding: 10px 0px 30px 0px;
+}
+.form {
+    padding: 40px;
+    background-color:rgb(191, 156, 112);
+    text-align: center;
+}
+
+form{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:rgb(114, 156, 77);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.f1{
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+}
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+    margin: 0 0 0 45px;
+}
+
+button{
+    background-color:rgb(105, 144, 160);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color:rgb(58, 56, 123);
+    color: black;
+}
+footer{
+    padding: 30px 20px;
+    color: white;
+    background-color:darkslateblue;
+}
+
+
+@media ( max-width: 768px)
+{
+    .navbar{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav.active .navbar{
+        display: flex;
+    }
+    .hamburger{
+        display: flex;
+    }
+    textarea, input{
+        text-align: center;
+        margin: 0 0 0 20px;
+    }
+}
+li:hover{
+    background-color: rgb(125, 86, 161);
+    color:rgb(162, 195, 138);
+}

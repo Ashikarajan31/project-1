@@ -1,0 +1,92 @@
+body{
+    font-family: arial;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.img1{
+    position: relative;
+    padding: 10px;
+    height:60px;
+    width: 60px;
+}
+li:hover{
+    background-color: rgb(125, 86, 161);
+    color:rgb(162, 195, 138);
+}
+.head{
+    background-color:rgb(162, 184, 116);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+ul{
+    position: absolute;
+    right: 1rem;
+    top: 40px;
+}
+.ol{
+    column-count: 2;
+    margin:10px;
+    background-color: rgb(149, 117, 79);
+}
+.pe{
+    width:350px;
+    height:350px;
+    margin:10px 5px 20px 10px;
+    padding:15px 5px 15px 15px;
+}
+li{
+    color:white;
+    display: inline;
+    padding:20px;
+    margin:30px;
+    font-size: 25px;
+}
+.hamburger{
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    float: right;
+}
+.hamburger .bar{
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 3px 0px;
+    border-radius: 9px;
+    
+}
+h2{
+    margin: 20px;
+}
+p{
+    line-height: 25px;
+    padding: 10px 10px 10px 20px;
+}
+.video{
+    width:90%;
+    height:20%;
+}
+footer{
+    padding: 30px 20px;
+    color: white;
+    background-color:darkslateblue;
+}
+@media ( max-width: 768px)
+{
+    .navbar{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav.active .navbar{
+        display: flex;
+    }
+    .hamburger{
+        display: flex;
+    }
+
+}
